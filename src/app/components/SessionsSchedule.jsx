@@ -8,13 +8,13 @@ export default function SessionsSchedule() {
 
 	useEffect(() => {
 		const getData = async () => {
-			await fetch("/assets/dec18ScheduleRevamped.json")
+			await fetch("/assets/currentweek.json")
 				.then((response) => response.json())
 				.then((response) => {
 					setDec18ScheduleRevamped(response);
 				})
 				.catch((err) => console.error(err));
-			await fetch("/assets/dec19ScheduleRevamped.json")
+			await fetch("/assets/nextweek.json")
 				.then((response) => response.json())
 				.then((response) => {
 					setDec19ScheduleRevamped(response);
@@ -101,8 +101,8 @@ export default function SessionsSchedule() {
 						defaultValue={activeSchedule}
 					>
 						<option value={"Full Schedule"}>Full Schedule</option>
-						<option value={"Day 1"}>Day 1</option>
-						<option value={"Day 2"}>Day 2</option>
+						<option value={"Day 1"}>Current Week</option>
+						<option value={"Day 2"}>Previous Week</option>
 						{/* <option value={"Day 3"}>Day 3</option> */}
 					</select>
 				</div>
@@ -136,7 +136,7 @@ export default function SessionsSchedule() {
 				filtered18.length ? (
 					<div>
 						<div className="sticky top-0 mb-4 bg-gray-50 py-4 text-2xl font-bold dark:bg-black">
-							Day 1
+							Current Week
 						</div>
 						<div className="flex flex-col gap-4">{renderSlot(filtered18)}</div>
 					</div>
@@ -146,7 +146,7 @@ export default function SessionsSchedule() {
 				filtered19.length ? (
 					<div>
 						<div className="sticky top-0 mb-4 bg-gray-50 py-4 text-2xl font-bold dark:bg-black">
-							Day 2
+							Previous Week
 						</div>
 						<div className="flex flex-col gap-4">{renderSlot(filtered19)}</div>
 					</div>

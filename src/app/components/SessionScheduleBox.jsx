@@ -17,19 +17,19 @@ export default function SessionScheduleBox({ data, classNames }) {
 					<span
 						className={twMerge(
 							"self-start rounded-md px-2.5 py-0.5 text-xs font-medium",
-							data.type === "Workshops" &&
+							data.type === "GDG" &&
 								"bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300",
-							data.type === "Challenges" &&
+							data.type === "IOTA" &&
 								"bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300",
-							data.type === "Panel Discussions" &&
+							data.type === "Epoch" &&
 								"bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-300",
-							data.type === "Global Health Forum" &&
+							data.type === "Gradient" &&
 								"bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300",
-							data.type === "Job Fair" &&
+							data.type === "Matrix" &&
 								"bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300",
-							data.type === "Intervention" &&
+							data.type === "Connexion" &&
 								"bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300",
-							data.type === "IES Conjunction" &&
+							data.type === "Nexsynch" &&
 								"bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
 						)}
 					>

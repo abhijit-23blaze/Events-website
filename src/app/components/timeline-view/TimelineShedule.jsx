@@ -13,19 +13,19 @@ export default function TimelineSchedule() {
 
 	useEffect(() => {
 		const getData = async () => {
-			await fetch("/assets/dec18ScheduleRevamped.json")
+			await fetch("/assets/currentweek.json")
 				.then((response) => response.json())
 				.then((response) => {
 					setDec18ScheduleRevamped(response);
 				})
 				.catch((err) => console.error(err));
-			await fetch("/assets/dec19ScheduleRevamped.json")
+			await fetch("/assets/nextweek.json")
 				.then((response) => response.json())
 				.then((response) => {
 					setDec19ScheduleRevamped(response);
 				})
 				.catch((err) => console.error(err));
-			await fetch("/assets/dec20ScheduleRevamped.json")
+			await fetch("/assets/previousweek.json")
 				.then((response) => response.json())
 				.then((response) => {
 					setDec20ScheduleRevamped(response);

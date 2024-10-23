@@ -73,7 +73,7 @@ export default function AppLayout({ children }) {
 					</motion.div>
 				</main>
 
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 
 			{/* <div className="flex min-h-full flex-col  dark:text-gray-50">
@@ -94,7 +94,7 @@ export default function AppLayout({ children }) {
 			/>
 
 			<ScrollRestoration />
-			<ReactQueryDevtools initialIsOpen={false} />
+			{/* <ReactQueryDevtools initialIsOpen={false} /> */}
 		</>
 	);
 }

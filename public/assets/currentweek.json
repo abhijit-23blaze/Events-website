@@ -1,12 +1,12 @@
 [
 	{
-		"timeSlotStart": "8:00 AM",
-		"timeSlotEnd": "1:00 PM",
+		"timeSlotStart": "Mon",
+		
 		"activities": [
 			{
-				"title": "Check-in",
+				"title": "GDSC intro session",
 
-				"location": "Medina Hall “Espace Jardin”"
+				"location": "GDSC"
 			},
 			{
 				"title": "SBs booth setup",
@@ -16,8 +16,8 @@
 		]
 	},
 	{
-		"timeSlotStart": "2:00 PM",
-		"timeSlotEnd": "4:50 PM",
+		"timeSlotStart": "Mon",
+		
 		"activities": [
 			{
 				"title": "Opening Ceremony",
@@ -56,7 +56,8 @@
 					"Seif El hajjem"
 				],
 				"location": "[1200]Hannibal ( main congress venue)",
-				"type": "Intervention"
+				"type": "Session"
+				
 			},
 			{ "title": "Musical Intervention", "type": "Intervention" },
 			{

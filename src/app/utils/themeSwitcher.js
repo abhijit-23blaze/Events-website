@@ -1,10 +1,10 @@
 function toggleThemeClassname(bool) {
 	["dark"].map((className) =>
-		document.documentElement.classList.toggle(className, !bool ? true : false)
+		document.documentElement.classList.toggle(className, bool ? true : false)
 	);
 
 	["light"].map((className) =>
-		document.documentElement.classList.toggle(className, bool ? true : false)
+		document.documentElement.classList.toggle(className, !bool ? true : false)
 	);
 }
 

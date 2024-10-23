@@ -1,0 +1,122 @@
+[
+	{
+		"enabled": true,
+		"name": "IEEE PES and IES Tunisia Technical Challenge",
+		"description": "PES & IES is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "PES-&-IES-Challenge",
+		"logo": { "url": "https://i.imgur.com/2CAjaNE.png" },
+		"link": "https://bit.ly/PES-IES",
+		"winner": "ENETCOM > ENIS > ESPRIT",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SMC and EdSoc Tunisia Technical Challenge",
+		"description": "Understanding Student Well-being: A Holistic Approach",
+		"slug": "SMC-&-EDUCATION-Challenge",
+		"logo": { "url": "https://i.imgur.com/QwhCPMT.png" },
+		"link": "https://bit.ly/3QbG3GU",
+		"winner": "ENIT > ESPRIT > ENSI",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE IAS Tunisia Technical Challenge",
+		"description": "IAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "IAS-Challenge",
+		"logo": { "url": "https://i.imgur.com/pFMD6if.png" },
+		"link": "https://bit.ly/3PMSCaa",
+		"winner": "FST > FSS > ENSI",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE RAS Tunisia Technical Challenge",
+		"description": "RAS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "RAS-Challenge",
+		"logo": { "url": "https://i.imgur.com/5A0DAtu.png" },
+		"link": "https://bit.ly/46PhYv5",
+		"winner": "ENIT > ESPRIT > ENETCOM",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE EMBS Tunisia Technical Challenge",
+		"description": "EMBS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "EMBS-Challenge",
+		"logo": { "url": "https://i.imgur.com/IeXKVQ0.png" },
+		"link": "https://tinyurl.com/22fdb2cs",
+		"winner": "ENETCOM > ENSI > ISSATM",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE AESS Tunisia Technical Challenge",
+		"description": "AESS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "AESS-Challenge",
+		"logo": { "url": "https://i.imgur.com/09FsBT3.png" },
+		"link": "https://bit.ly/3rPXL9s",
+		"winner": "ESPRIT > ENETCOM > ENIS",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE CS and YP Tunisia Technical Challenge",
+		"description": "CS & YP is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "CS-&-YP-Challenge",
+		"logo": { "url": "https://i.imgur.com/3hzl3jP.png" },
+		"link": "https://bit.ly/CSYP-PDF",
+		"winner": "Sup'Com > ENSIT > ESPRIT",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SIGHT Tunisia & IEEE R8 Entrepreneurship Technical Challenge",
+		"description": "SIGHT is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "SIGHT-Challenge",
+		"logo": { "url": "https://i.imgur.com/i4teEs2.png" },
+		"link": "https://bit.ly/SIGHT-PDF",
+		"winner": "ESPRIT > ENETCOM > ESSTHS",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SSCS Tunisia Technical Challenge",
+		"description": "SSCS is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "SSCS-Challenge",
+		"logo": { "url": "https://i.imgur.com/4uV0iAT.png" },
+		"link": "https://bit.ly/3PTriHn",
+		"winner": "ENETCOM > Sup'Com > ENIS",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE WIE Tunisia Affinity Group Technical Challenge",
+		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "WIE-Challenge",
+		"logo": { "url": "https://i.imgur.com/kjMm6rQ.png" },
+		"link": "https://bit.ly/3FxyT9D",
+		"winner": "ENETCOM > Sup'Com > ENIT",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE SAC Tunisia Challenge",
+		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "WIE-Challenge",
+		"logo": { "url": "https://i.imgur.com/5AIvGUs.png" },
+		"link": "https://bit.ly/3s8LmgW",
+		"winner": "ENETCOM > ESPRIT > ENIS",
+		"winnerImg": ""
+	},
+	{
+		"enabled": true,
+		"name": "IEEE CAS & CRFID Tunisia Technical Challenge",
+		"description": "WIE is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) Board. It is filled with IEEE volunteers, and supported by IEEE staff. These volunteer members provide important viewpoints and information, and represent the voice of the over 100,000 IEEE Student and Graduate Student members worldwide.",
+		"slug": "WIE-Challenge",
+		"logo": { "url": "https://i.imgur.com/tuFDEhC.png" },
+		"link": "https://bit.ly/3MfAxk1",
+		"winner": "ISIMS > ENETCOM > ENIT",
+		"winnerImg": ""
+	}
+]

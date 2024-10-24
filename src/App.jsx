@@ -19,7 +19,6 @@ import ContactPage from "./app/pages/Contact.page.jsx";
 import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
 import ThreeExperience from "./app/components/ThreeExperience.jsx";
 import Phase from "./app/components/Phase.jsx";
-import AboutUs from "./app/pages/AboutUs.page.jsx";
 import TicketPage from "./app/pages/Ticket.page.jsx";
 import VenuePage from "./app/pages/Venue.page.jsx";
 import { ChallengesPage } from "./app/pages/Challenges.jsx";
@@ -33,7 +32,7 @@ import SessionsPage from "./app/pages/Sessions.page.jsx";
 import EventSatisfactionFormPage from "./app/pages/EventSatisfactionForm.page.jsx";
 import WinnersList from "./app/components/WinnersList.jsx";
 import { WinnersPage } from "./app/pages/Winners.jsx";
-
+import AboutUs from './app/components/AboutUs.jsx';
 setInitialTheme();
 
 const router = createBrowserRouter([
@@ -86,10 +85,10 @@ const router = createBrowserRouter([
 				path: "speakers/:speakerSlug",
 				element: <Speaker />,
 			},
-			{
-				path: "about-us",
-				element: <AboutUs />,
-			},
+			// {
+			// 	path: "about-us",
+			// 	element: <About-Us />,
+			// },
 			// {
 			// 	path: "team",
 			// 	element: <Team />,
@@ -141,6 +140,10 @@ const router = createBrowserRouter([
 			{
 				path: "*",
 				element: <HomePage />,
+			},
+			{
+				path: "/About-Us",
+				element: <AboutUs />,
 			},
 		],
 	},

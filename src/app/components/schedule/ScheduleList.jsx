@@ -20,6 +20,7 @@ import { twMerge } from "tailwind-merge";
 import StyledButton from "../StyledButton";
 import SessionsSchedule from "../SessionsSchedule";
 import { useSearchParams } from "react-router-dom";
+import { ReactTyped } from "react-typed";
 
 export default function ScheduleList() {
 	return (
@@ -1251,12 +1252,17 @@ export function ScheduleOverview({ showTimeline }) {
 			);
 		});
 	}
-
+/**
+ * <div>
+    <ReactTyped strings={["events in IIIT Sri City"]} typeSpeed={40} />
+    <br />
+	</div>
+ */
 	return (
 		<section>
 			<div className="mb-14 flex flex-col items-center justify-center gap-8">
 				<div className="flex justify-center gap-2">
-					<div className="text-4xl font-bold">Upcoming events in IIIT Sri City</div>
+					<div className="text-4xl mt-16 font-bold">Upcoming <ReactTyped strings={["events in IIIT Sri City"]} typeSpeed={60} /></div>
 				</div>
 
 				<div className="flex">

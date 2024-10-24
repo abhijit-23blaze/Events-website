@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import ScrollToTop from "react-scroll-to-top";
 import { twMerge } from "tailwind-merge";
+import { useState } from 'react';
 
 import Header from "./Header";
 

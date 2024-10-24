@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import IIIT from '../IIIT.png';
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate(); // Initialize navigate
 
   // Function to toggle the modal
   const toggleModal = () => {
@@ -22,11 +25,16 @@ const Header = () => {
     };
   }, []);
 
+  // Function to handle About Us button click
+  const handleAboutUsClick = () => {
+    navigate('/about-us'); // Use the correct path for navigation
+  };
+
   return (
     <>
       {/* Sticky Header */}
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${
           isScrolled
             ? "bg-black bg-opacity-60 backdrop-blur-md shadow-md"
             : "bg-transparent"
@@ -36,8 +44,8 @@ const Header = () => {
           {/* Logo and Title */}
           <div className="flex items-center gap-4">
             <img
-              src="/path-to-your-logo.png" // Replace with the actual path to your logo
-              alt="Logo"
+              src={IIIT}
+              alt="IIIT Logo" // Replace with the actual path to your logo
               className="w-12 h-12 rounded-full"
             />
             <h1 className="text-white text-xl font-bold">Student Development Council</h1>
@@ -46,7 +54,7 @@ const Header = () => {
           {/* About Us Button */}
           <button
             className="bg-black text-purple-500 hover:bg-purple-500 hover:text-white font-medium py-2 px-4 rounded-lg transition"
-            
+            onClick={handleAboutUsClick}
           >
             About Us
           </button>

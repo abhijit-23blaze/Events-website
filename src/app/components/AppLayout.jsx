@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import ScrollToTop from "react-scroll-to-top";
 import { twMerge } from "tailwind-merge";
-
+import Header from "./Header";
 const pageVariants = {
 	initial: {
 		opacity: 0,
@@ -28,7 +28,9 @@ export default function AppLayout({ children }) {
 	const { pathname } = useLocation();
 
 	return (
+		
 		<>
+		{<Header />}
 			{/* <div
 				style={{
 					// position: "absolute",

@@ -1,0 +1,73 @@
+.about-us-page {
+    padding: 50px;
+    background-color: #000; /* Set background to black */
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Set text color to white for contrast */
+}
+  
+h1 {
+    margin-bottom: 2rem;
+    color: #fff; /* Ensure heading is white */
+}
+
+/* Grid layout */
+.grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between grid items */
+}
+  
+.student {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 40px; /* Increased padding for larger cards */
+    background-color: #1a1a1a; /* Darker background for student sections */
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    height: 300px; /* Increased height for a larger card */
+}
+  
+.student-image {
+    width: 150px; /* Adjusted width for better fit in grid */
+    height: 150px; /* Adjusted height for better fit in grid */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px; /* Spacing between image and text */
+}
+  
+.student-details {
+    text-align: center; /* Center text within the student details */
+}
+  
+.student-details h2 {
+    font-size: 2rem; /* Larger name text */
+    margin: 0; /* Remove margin for better centering */
+    color: #fff; /* Ensure name is white */
+}
+  
+/* Reveal animation */
+.reveal.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+  
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* Stack in one column on small screens */
+    }
+  
+    .student {
+        flex-direction: column; /* Maintain vertical layout */
+        text-align: center;
+    }
+  
+    .student-image {
+        margin-bottom: 10px; /* Adjust margin on smaller screens */
+    }
+}

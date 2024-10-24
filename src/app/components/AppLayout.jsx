@@ -5,7 +5,8 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import ScrollToTop from "react-scroll-to-top";
 import { twMerge } from "tailwind-merge";
-import { useState } from "react";
+
+import Header from "./Header";
 
 const pageVariants = {
 	initial: {
@@ -35,17 +36,29 @@ export default function AppLayout({ children }) {
 	};
 
 	return (
+		
 		<>
-			<div className="flex min-h-full flex-col">
-				{/* About Us Button */}
-				{/* <button
-	className="group relative w-40 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:focus:ring-purple-800"
-	onClick={toggleModal}
->
-	<div className="relative flex items-center justify-center gap-2 rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-		<span>About Us</span>
-	</div>
-</button> */}
+
+		{<Header />}
+			{/* <div
+				style={{
+					// position: "absolute",
+					width: "100%",
+					height: "100%",
+					overflow: "hidden",
+					inset: "0px",
+				}}
+			>
+				<div
+					style={{
+						width: "100%",
+						height: "100%",
+					}}
+				>
+					<ThreeExperience />
+				</div>
+			</div> */}
+
 
 
 				<main className="container mx-auto flex flex-1 p-4 py-8 2xl:px-24">

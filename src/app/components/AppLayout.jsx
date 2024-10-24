@@ -96,7 +96,7 @@ export default function AppLayout({ children }) {
 						</div>
 					</div>
 				)}
-			</div>
+			{/* </div> */}
 
 			<ScrollToTop
 				className={twMerge(
@@ -105,6 +105,7 @@ export default function AppLayout({ children }) {
 			/>
 
 			<ScrollRestoration />
+
 		</>
 	);
 }

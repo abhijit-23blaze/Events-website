@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import './AboutUs.css';
 import { motion } from 'framer-motion';
+import { useNavigate } from "react-router-dom"; // Import useNavigate for back navigation
 
 const AboutUs = () => {
+  const navigate = useNavigate(); // Initialize useNavigate for back button functionality
+
   useEffect(() => {
     const revealElements = () => {
       const reveals = document.querySelectorAll(".reveal");
@@ -26,45 +29,45 @@ const AboutUs = () => {
 
   const students = [
     {
+      name: "Abhijith",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Ritovan",
+      image: "https://via.placeholder.com/150",
+    },
+    {
       name: "Aadi",
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Abhi",
+      name: "Jhanvi",
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Jan",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Rito",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Sam",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Lily",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Mark",
+      name: "Karthik",
       image: "https://via.placeholder.com/150",
     },
   ];
 
   return (
     <div className="about-us-page container mx-auto py-16">
+      <button 
+        className="bg-black text-purple-500 hover:bg-purple-500 hover:text-white font-medium py-2 px-4 rounded-lg transition" 
+        onClick={() => navigate(-1)} // Back button navigates to the previous page
+      >
+        Back
+      </button>
+      
       <h1 className="text-center text-4xl font-bold mb-12">About Us</h1>
       <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
         {students.map((student, index) => (
           <motion.div
-            className={`student reveal p-4 bg-black rounded-lg shadow-md ${index === 6 ? 'col-span-2 flex justify-center' : ''}`}
+            className={`student reveal p-4 bg-black rounded-lg shadow-md ${student.name === 'Karthik' ? 'col-span-2 flex justify-center' : ''}`}
             key={index}
-            initial={{ opacity: 0, translateX: 100 }}
-            animate={{ opacity: 1, translateX: 0 }}
+            initial={{ opacity: 0, translateY: 100 }} // Update animation for scroll-based re-render
+            whileInView={{ opacity: 1, translateY: 0 }} // Trigger re-render on scroll into view
+            viewport={{ once: false }} // Enable repeated re-rendering on scroll
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <div className="flex flex-col items-center">

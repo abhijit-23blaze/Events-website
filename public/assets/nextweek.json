@@ -1,7 +1,6 @@
 [
 	{
-		"timeSlotStart": "7:00 AM",
-		"timeSlotEnd": "9:00 AM",
+		"timeSlotStart": "",
 		"activities": [
 			{
 				"title": "Breakfast",
@@ -11,7 +10,6 @@
 	},
 	{
 		"timeSlotStart": "9:00 AM",
-		"timeSlotEnd": "10:30 AM",
 		"activities": [
 			{
 				"title": "Breakout Session 1",
@@ -155,7 +153,6 @@
 	},
 	{
 		"timeSlotStart": "10:30 AM",
-		"timeSlotEnd": "11:00 AM",
 		"activities": [
 			{
 				"title": "Coffee Break",
@@ -166,7 +163,6 @@
 	},
 	{
 		"timeSlotStart": "11:00 AM",
-		"timeSlotEnd": "12:30 PM",
 		"activities": [
 			{
 				"title": "Breakout Session 2",
@@ -309,7 +305,6 @@
 	},
 	{
 		"timeSlotStart": "12:30 PM",
-		"timeSlotEnd": "2:30 PM",
 		"activities": [
 			{
 				"title": "Lunch",
@@ -320,7 +315,6 @@
 	},
 	{
 		"timeSlotStart": "2:30 PM",
-		"timeSlotEnd": "4:00 PM",
 		"activities": [
 			{
 				"title": "Breakout Session 3",
@@ -442,7 +436,6 @@
 	},
 	{
 		"timeSlotStart": "4:00 PM",
-		"timeSlotEnd": "4:30 PM",
 		"activities": [
 			{
 				"title": "Coffee Break",
@@ -452,7 +445,6 @@
 	},
 	{
 		"timeSlotStart": "4:30 PM",
-		"timeSlotEnd": "6:00 PM",
 		"activities": [
 			{
 				"title": "Breakout Session 4",
@@ -584,7 +576,6 @@
 	},
 	{
 		"timeSlotStart": "6:00 PM",
-		"timeSlotEnd": "6:20 PM",
 		"activities": [
 			{
 				"title": "Break",
@@ -595,7 +586,6 @@
 	},
 	{
 		"timeSlotStart": "6:20 PM",
-		"timeSlotEnd": "7:20 PM",
 		"activities": [
 			{
 				"title": "Breakout Session 5",
@@ -729,7 +719,6 @@
 	},
 	{
 		"timeSlotStart": "7:20 PM",
-		"timeSlotEnd": "9:30 PM",
 		"activities": [
 			{
 				"title": "Dinner",
@@ -740,7 +729,6 @@
 	},
 	{
 		"timeSlotStart": "9:30 PM",
-		"timeSlotEnd": "10:15 PM",
 		"activities": [
 			{
 				"title": "Talent Show",
@@ -751,7 +739,7 @@
 	},
 	{
 		"timeSlotStart": "10:15 PM",
-		"timeSlotEnd": "11:15 PM",
+		
 		"activities": [
 			{
 				"title": "Awards Ceremony",

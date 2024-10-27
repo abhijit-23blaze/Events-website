@@ -1360,7 +1360,7 @@ export function ScheduleOverview({ showTimeline }) {
 				<div className="flex flex-col gap-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
 					<section className="flex flex-col">
 						<h3 className="sticky top-0 bg-gray-50 py-4 text-center text-2xl font-semibold tracking-tight dark:bg-black">
-							<time dateTime="2022-04-04">Next Week</time>
+							<time dateTime="2022-04-04">Current Week</time>
 						</h3>
 						{/* <p className="mt-1.5 text-base tracking-tight">
 						The first day of the conference is focused on ecommerce.

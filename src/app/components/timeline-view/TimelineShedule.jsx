@@ -54,7 +54,7 @@ export default function TimelineSchedule() {
 							"scale-110 border-b-2 border-gray-600 font-extrabold"
 					)}
 				>
-					Next Week
+					Current Week
 				</button>
 				<button
 					onClick={() => setSelectedTab(1)}
@@ -64,7 +64,7 @@ export default function TimelineSchedule() {
 							"scale-110 border-b-2 border-gray-600 font-extrabold"
 					)}
 				>
-					Current Week
+					Next Week
 				</button>
 				<button
 					onClick={() => setSelectedTab(2)}

@@ -1,0 +1,591 @@
+[
+	{
+		"timeSlotStart": "Wednesday",
+		
+		"activities": [
+			{
+				"title": "MongoDB 101",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "GDG"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Learn all about MongoDB and the world of NoSQL Databases",
+				"speakers": [
+					"Aahnik Daw",
+					"Saurabh Pal",
+					"Bishwajeet Sahoo"
+				],
+				"location": "GDG",
+				"type": "G-05"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Thrusday",
+		
+		"activities": [
+			{
+				"title": "Understanding Trees in Data Structures",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Gradient"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Understanding Trees in Data Structures",
+				"speakers": [
+					"Parth Vijay",
+					"Himanshu saraswat"
+				],
+				"location": "Gradient",
+				"type": "G-04"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Friday",
+		
+		"activities": [
+			{
+				"title": "NLP Project",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "GDG"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Build a terminal based autocomplete NLP project",
+				"speakers": [
+					"Aahnik Daw",
+					"Saurabh Pal",
+					"Bishwajeet Sahoo"
+				],
+				"location": "GDG",
+				"type": "Not mentioned"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Saturday",
+		
+		"activities": [
+			{
+				"title": "NLP Project",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "GDG"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Build a terminal based autocomplete NLP project",
+				"speakers": [
+					"Aahnik Daw",
+					"Saurabh Pal",
+					"Bishwajeet Sahoo"
+				],
+				"location": "GDG",
+				"type": "G-04"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Monday",
+		
+		"activities": [
+			{
+				"title": "Intro To AI-ML",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Epoch"
+			},
+			{
+				"title": "Intro To Musical World",
+
+				"location": "Reverb"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Intro To AI-ML",
+				"speakers": [
+					"Shriraj",
+					"Varun Mantri"
+				],
+				"location": "Epoch",
+				"type": "G-04"
+				
+			},
+			{
+				"title": "Intro To Musical World",
+				"speakers": [
+					"Abraham Jose",
+					"Rishabh Raj"
+				],
+				"location": "Reverb",
+				"type": "G-05"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Tuesday",
+		
+		"activities": [
+			{
+				"title": "BI Tools",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Matrix"
+			},
+			{
+				"title": "Ancient Medical Science",
+
+				"location": "Nirvana"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "BI Tools(Dashboard making Session)",
+				"speakers": [
+					"Satyam",
+					"Aditya Pande"
+				],
+				"location": "Matrix",
+				"type": "G-04"
+				
+			},
+			{
+				"title": "Ancient Medical Science",
+				"speakers": [
+					"Himanshu saraswat",
+					"Vyom Nikhra"
+				],
+				"location": "Nirvana",
+				"type": "G-05"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Wednesday",
+		
+		"activities": [
+			{
+				"title": "BI Tools",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Matrix"
+			},
+			{
+				"title": "Ancient Medical Science",
+
+				"location": "Matrix"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "BI Tools",
+				"speakers": [
+					"Satyam",
+					"Aditya Pande"
+				],
+				"location": "Matrix",
+				"type": "G-04"
+				
+			},
+			{
+				"title": "Ancient Medical Science",
+				"speakers": [
+					"Himanshu saraswat",
+					"Vyom Nikhra"
+				],
+				"location": "Nirvana",
+				"type": "G-05"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Thrusday",
+		"activities": [
+			{
+				"title": "BI Tools(Dashboard making Session)",
+
+				"location": "Matrix"
+			}
+		]
+	},
+	{
+		"timeSlotStart":"Thrusday",
+		"activities": [
+			{
+				"title": "Ancient Medical Science",
+
+				"location": "Nirvana"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Friday",
+		
+		"activities": [
+			{
+				"title": "Pop Quiz",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Matrix"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Pop Quiz",
+				"speakers": [
+					"Satyam",
+					"Aditya Pande"
+				],
+				"location": "Matrix",
+				"type": "G-04"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Friday",
+		"activities": [
+			{
+				"title": "Pop Quiz",
+
+				"location": "Matrix"
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Saturday",
+		
+		"activities": [
+			{
+				"title": "Deep Dive into AI",
+				"icon": {
+					"prefix": "fas",
+					"iconName": "microphone",
+					"icon": [
+						384,
+						512,
+						[],
+						"f130",
+						"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+					]
+				},
+				"location": "Epoch"
+			}
+		],
+		"detailedActivities": [
+			{
+				"title": "Deep Dive into AI",
+				"speakers": [
+					"Shriraj",
+					"Yashwanth"
+				],
+				"location": "Epoch",
+				"type": "G-04"
+				
+			}
+		]
+	},
+	{
+		"timeSlotStart": "Wednesday",
+		"activities": [
+		  {
+			"title": "Epoch",
+			"icon": {
+			  "prefix": "fas",
+			  "iconName": "microphone",
+			  "icon": [
+				384,
+				512,
+				[],
+				"f130",
+				"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+			  ]
+			},
+			"location": "G-04 & G-05"
+		  }
+		],
+		"detailedActivities": [
+		  {
+			"title": "Intro Session",
+			"speakers": [
+			  "M SHREERAJ",
+			  "YASHWANTH S",
+			  "CHARISHMA",
+			  "RITHVIK RAO GANDRA"
+			],
+			"location": "Epoch",
+			"type": "G-04 & G-05"
+		  }
+		]
+	  },
+	  {
+		"timeSlotStart": "Saturday",
+		"activities": [
+		  {
+			"title": "F/stops",
+			"icon": {
+			  "prefix": "fas",
+			  "iconName": "microphone",
+			  "icon": [
+				384,
+				512,
+				[],
+				"f130",
+				"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+			  ]
+			},
+			"location": "G-05"
+		  }
+		],
+		"detailedActivities": [
+		  {
+			"title": "Intro Session",
+			"speakers": [
+			  "POOJYANTH",
+			  "HEMANTH",
+			  "SRUTI",
+			  "SAMPATH",
+			  "SATYA"
+			],
+			"location": "F/Stops",
+			"type": "G-05"
+		  }
+		]
+	  },
+	  {
+		"timeSlotStart": "Sunday",
+		"activities": [
+		  {
+			"title": "Epoch",
+			"icon": {
+			  "prefix": "fas",
+			  "iconName": "microphone",
+			  "icon": [
+				384,
+				512,
+				[],
+				"f130",
+				"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+			  ]
+			},
+			"location": "G-04"
+		  }
+		],
+		"detailedActivities": [
+		  {
+			"title": "Intro Session",
+			"speakers": [],
+			"location": "NSS",
+			"type": "G-04"
+		  }
+		]
+	  },
+	  {
+		"timeSlotStart": "Monday",
+		"activities": [
+		  {
+			"title": "Nirvana",
+			"icon": {
+			  "prefix": "fas",
+			  "iconName": "microphone",
+			  "icon": [
+				384,
+				512,
+				[],
+				"f130",
+				"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+			  ]
+			},
+			"location": "G-04 & G-05"
+		  }
+		],
+		"detailedActivities": [
+		  {
+			"title": "Janmashtami Event",
+			"speakers": [],
+			"location": "Nirvana",
+			"type": "G-04 & G-05"
+		  }
+		]
+	  },
+	  {
+		"timeSlotStart": "Wednesday",
+		"activities": [
+		  {
+			"title": "Matrix",
+			"icon": {
+			  "prefix": "fas",
+			  "iconName": "microphone",
+			  "icon": [
+				384,
+				512,
+				[],
+				"f130",
+				"M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+			  ]
+			},
+			"location": "G-05"
+		  }
+		],
+		"detailedActivities": [
+		  {
+			"title": "Intro Session",
+			"speakers": [
+			  "SATYAM",
+			  "ADI"
+			],
+			"location": "Mattrix",
+			"type": "G-05"
+		  }
+		]
+	  },
+	  {
+		  "timeSlotStart": "Thrusday",
+		  "activities": [
+			{
+			  "title": "Connexion",
+			  "icon": {
+				"prefix": "fas",
+				"iconName": "microphone",
+				"icon": [
+				  384,
+				  512,
+				  [],
+				  "f130",
+				  "M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+				]
+			  },
+			  "location": "G-04"
+			}
+		  ],
+		  "detailedActivities": [
+			{
+			  "title": "Intro Session",
+			  "speakers": [
+				"SATYAM",
+				"ADI"
+			  ],
+			  "location": "Mattrix",
+			  "type": "G-05"
+			}
+		  ]
+		},
+		{
+		  "timeSlotStart": "Thrusday",
+		  "activities": [
+			{
+			  "title": "IOTA",
+			  "icon": {
+				"prefix": "fas",
+				"iconName": "microphone",
+				"icon": [
+				  384,
+				  512,
+				  [],
+				  "f130",
+				  "M176 0C123 0 80 43 80 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM48 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H104c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H200V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+				]
+			  },
+			  "location": "Online"
+			}
+		  ],
+		  "detailedActivities": [
+			{
+			  "title": "Intro Session",
+			  "speakers": [
+				"SATYAM",
+				"ADI"
+			  ],
+			  "location": "Mattrix",
+			  "type": "G-05"
+			}
+		  ]
+		}
+
+]

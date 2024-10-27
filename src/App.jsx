@@ -62,7 +62,7 @@ const router = createBrowserRouter([
 				element: <SponsorsPage />,
 			},
 			{
-				path: "/",
+				path: "/Events-website",
 				element: <SchedulePage />,
 			},
 			{
